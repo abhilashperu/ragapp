@@ -36,7 +36,6 @@ from openpyxl import load_workbook
 #load_dotenv()
 os.environ['CURL_CA_BUNDLE'] = ''#'C:\\Users\\320124527\\Downloads\\huggingface.co.crt'
 os.environ['REQUESTS_CA_BUNDLE'] = ''
-#sec_key = "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" 
 sec_key = os.environ['HUGGINGFACEHUB_API_TOKEN']
 
 # Suppress warnings
